@@ -4,6 +4,9 @@
   "description": "",
   "type": "module",
   "main": "server.js",
+  "engines": {
+    "node": ">=16.9"
+  },
   "scripts": {
     "start": "npx dotenv -e .env.development node server.js",
     "start:dev": "npx dotenv -e .env.development nodemon server.js",
