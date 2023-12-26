@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  db:
+    container_name: building_memory
+    image: postgres:14.1-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=memories
+      - POSTGRES_PASSWORD=memories
+      - POSTGRES_DB=build-memories
+    ports:
+      - '5443:5432'
+    volumes:
+      - ./db:/var/lib/postgresql/data

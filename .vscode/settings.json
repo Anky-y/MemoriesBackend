@@ -1,0 +1,19 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#29301D",
+        "titleBar.activeBackground": "#394329",
+        "titleBar.activeForeground": "#FAFBF9"
+    },
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5443,
+            "driver": "PostgreSQL",
+            "name": "building_memory",
+            "database": "build-memories",
+            "username": "memories",
+            "password": "memories"
+        }
+    ]
+}
